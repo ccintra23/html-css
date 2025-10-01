@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", sans-serif;
+    /* weight=peso, width=largura, height=altura */
+    font-weight: 300;
+    font-style: italic;
+    /* text-decoration: underline; */
+    font-size: 1.3em;
+
+    /* SHORTHAND para a especificação acima, com exceção do text-decoration font: italic 300 1.3em "Work Sans", sans-serif; */
+    
+    /* Medidas absolutas
+    cm, mm, px, in(polegada), pt(ponto), pc(paica)
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    Recomendado utilizar para fonts: em e px
+
+    em é a portentagem do tamanho da font */
+}

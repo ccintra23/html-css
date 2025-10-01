@@ -1,0 +1,22 @@
+nav {
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.719);
+
+}
+
+
+article aside {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo de mídia</title>
+</head>
+<body>
+    <h2>Áudio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure, ab officia facilis dignissimos perferendis in quam optio nobis ex eligendi dolorem facere consequatur praesentium explicabo ratione omnis, voluptatibus ducimus.</p>
+    <audio src="media/happy-mistake.mp3" preload="metadata" controls loop></audio>
+    <p>Seu navegador não suportar áudio? <a href="media/happy-mistake.mp3" download="happy-mistake22.mp3" type="audio/mpeg">Clique aqui.</a></p>
+    
+    <!--O Atributo download diz como será o nome do arquivo a ser baixado. Segundo consta, na data desta aula, o atributo autoplay não funciona no Google Chrome e depende do navegador usado-->
+
+    <h2>Vídeo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae eligendi unde totam laboriosam excepturi, rerum error ut et praesentium voluptatem quibusdam labore dolor voluptates consequatur iure quasi laborum veniam eaque.</p>
+    <video src="media/meu-video.mp4" width="300" poster="imagem/limoes-capa.png" controls loop></video>
+
+    <!--O autoplay também se aplica a vídeos. O Atributo "poster" identifica a thumb do vídeo. Hospedar vídeos em seu servidor, pode gerar gastos.-->
+
+    <h3>Vídeos do YouTube</h3>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=MI6KFP5s2gpDGJYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--Utilize o botão compartilhar e depois Incorporar. Pronto. Não Consome dados do seu servidor.-->
+</body>
+</html>
